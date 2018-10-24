@@ -1,0 +1,44 @@
+body{
+    background-color: #333;
+}
+
+h2,h4{
+    color: wheat;
+}
+
+a,a:link,.a:visited,.a:hover,.a:active{
+    text-decoration: none;
+    color:gray;
+}
+.container{
+    .title{
+        font-size: 2em;
+        width:100%;
+        text-align: center;
+        color: wheat;
+        padding:20px;
+        margin-top:40px;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .mdFile{
+        margin-top:30px;
+    }
+    .output{
+        margin-top: 80px;
+        .mdOutput{
+            border: solid 1px black;
+            background-color: wheat;
+        }
+    }
+    .htmlFile{
+        margin-top: 30px;
+    }
+
+    .home{
+        margin-top: 90px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
